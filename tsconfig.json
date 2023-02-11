@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "baseUrl": "src",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -21,10 +17,8 @@
     "noEmit": false,
     "outDir": "dist",
     "declaration": true,
-    "jsx": "react-jsx",
+    "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "exclude": ["src/stories"]
 }
